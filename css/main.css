@@ -84,6 +84,7 @@ section {
 	position: relative;
 	display: inline-block;
 	top: 6em;
+	padding: 1.5em;
 }
 
 .ship-2 {
@@ -92,6 +93,7 @@ section {
 	position: relative;
 	display: inline-block;
 	top: 8em;
+	padding: 1.5em;
 }
 
 .js-ship-1-fade {
