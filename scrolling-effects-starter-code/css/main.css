@@ -46,6 +46,8 @@ section {
 .shuttle {
 	width: 300px;
 	opacity: 0;
+	position: relative;
+	top: 5em;
 }
 
 .shuttle-section {
@@ -55,15 +57,17 @@ section {
 	
 .js-shuttle-fade {
 	/* Don't forget to put in all the prefixes!!! */
-	-webkit-animation: shuttle-fade 1s linear forwards;
+	-webkit-animation: shuttle-fade 800ms linear forwards;
 }
 
 /* Don't forget to put in all the prefixes!!! */
 @-webkit-keyframes shuttle-fade {
 	0% {
 		opacity: 0;
+		top: 6em;
 	}
 	100% {
 		opacity: 1;
+		top: 0;
 	}
 }
