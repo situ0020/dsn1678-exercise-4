@@ -71,3 +71,58 @@ section {
 		top: 0;
 	}
 }
+
+.ship-section {
+	background: transparent url(../img/kasei-valles-canyons.jpg) no-repeat center top;
+	background-size: cover;
+	text-align: center;
+}
+
+.ship-1 {
+	width: 150px;
+	opacity: 0;
+	position: relative;
+	display: inline-block;
+	top: 6em;
+}
+
+.ship-2 {
+	width: 150px;
+	opacity: 0;
+	position: relative;
+	display: inline-block;
+	top: 8em;
+}
+
+.js-ship-1-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: ship-1-fade 800ms linear forwards;
+}
+
+/* Don't forget to put in all the prefixes!!! */
+@-webkit-keyframes ship-1-fade {
+	0% {
+		opacity: 0;
+		top: 6em;
+	}
+	100% {
+		opacity: 1;
+		top: 0;
+	}
+}
+
+.js-ship-2-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: ship-2-fade 800ms linear forwards;
+}
+
+@-webkit-keyframes ship-2-fade {
+	0% {
+		opacity: 0;
+		top: 8em;
+	}
+	100% {
+		opacity: 1;
+		top: 0;
+	}
+}
