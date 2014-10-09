@@ -28,6 +28,11 @@ section {
 	opacity: 0;
 }
 
+.js-dipper-fade {
+	/* Don't forget to put in all the prefixes!!! */
+	-webkit-animation: dipper-fade 1s linear forwards;
+}
+
 /* Don't forget to put in all the prefixes!!! */
 @-webkit-keyframes dipper-fade {
 	0% {
