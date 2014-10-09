@@ -79,7 +79,7 @@ section {
 }
 
 .ship-1 {
-	width: 150px;
+	width: 200px;
 	opacity: 0;
 	position: relative;
 	display: inline-block;
@@ -87,7 +87,7 @@ section {
 }
 
 .ship-2 {
-	width: 150px;
+	width: 200px;
 	opacity: 0;
 	position: relative;
 	display: inline-block;
